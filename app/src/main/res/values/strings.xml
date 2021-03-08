@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+
+    <!--    Welcome-->
+    <string name="welcome_greeting">Welcome</string>
+    <string name="welcome_enter_name">Please enter your name</string>
+    <string name="welcome_enter_name_hint">Name</string>
+    <string name="welcome_start">Start</string>
+    <string name="welcome_no_name_entered">A name must be entered</string>
+
+    <!--    Quiz-->
+    <string name="quiz_progress">%1$d/%2$d</string>
+    <string name="quiz_life_line_time">+10</string>
+    <string name="quiz_life_line_remove">50/50</string>
+
+    <!--    Summary-->
+    <string name="summary_result_is_correct">Correct</string>
+    <string name="summary_result_is_incorrect">Incorrect</string>
+    <string name="summary_result_is_time_out">- TIME RAN OUT -</string>
+</resources>

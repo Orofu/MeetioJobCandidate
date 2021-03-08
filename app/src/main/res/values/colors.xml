@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4caf4f</color>
+    <color name="colorPrimaryDark">#147129</color>
+    <color name="colorAccent">#3c403a</color>
+    <color name="colorAccentLight">#676C63</color>
+    <color name="white">@android:color/white</color>
+    <color name="btn_disable">#F0737C6F</color>
+</resources>

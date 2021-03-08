@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/welcome_background_gradient"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp">
+
+        <TextView
+            android:id="@+id/quiz_progress_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="end"
+            android:text="0/10"
+            android:textColor="@color/white" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:minWidth="120dp"
+                android:minHeight="120dp"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <ImageView
+                    android:id="@+id/quiz_img"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:contentDescription="question image"
+                    android:layout_marginBottom="8dp"
+                    android:scaleType="centerCrop"
+                    tools:src="@drawable/question_preview_img"
+                    tools:visibility="visible"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/quiz_question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="16sp"
+                    tools:text="This is a question, what is the answer?" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/quiz_progress_time"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:progressTint="@color/colorPrimary"
+                android:indeterminate="false"
+                android:max="10"
+                android:paddingEnd="16dp"
+                android:progress="0"
+                tools:ignore="RtlSymmetry"
+                tools:progress="5" />
+
+            <TextView
+                android:id="@+id/quiz_progress_time_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="10"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/quiz_lifeLine_time"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:minWidth="40dp"
+                android:minHeight="40dip"
+                android:text="@string/quiz_life_line_time"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/quiz_lifeLine_fifty_fifty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="60dp"
+                android:minHeight="40dip"
+                android:text="@string/quiz_life_line_remove"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <include layout="@layout/answer_layout" />
+
+    </LinearLayout>
+</ScrollView>

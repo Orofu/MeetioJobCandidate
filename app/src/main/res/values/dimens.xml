@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    Welcome-->
+    <dimen name="welcome_text_header">22sp</dimen>
+    <dimen name="welcome_text_welcome">26sp</dimen>
+    <dimen name="welcome_text_enter_name">14sp</dimen>
+</resources>

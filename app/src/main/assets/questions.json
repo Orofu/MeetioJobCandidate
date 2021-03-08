@@ -1,0 +1,340 @@
+{
+  "questions": [
+    {
+      "questionId": 1,
+      "questionText": "What's the biggest animal in the world?",
+      "questionType": "TEXT",
+      "questionImage": "",
+      "answers": [
+        {
+          "answerId": 1,
+          "answer": "Megalodon",
+          "correct": false
+        },
+        {
+          "answerId": 2,
+          "answer": "Giraffe",
+          "correct": false
+        },
+        {
+          "answerId": 3,
+          "answer": "Giant Pacific octopus",
+          "correct": false
+        },
+        {
+          "answerId": 4,
+          "answer": "Blue whale",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionId": 2,
+      "questionText": "If a creature is edentulous what has it not got?",
+      "questionType": "TEXT",
+      "questionImage": "",
+      "answers": [
+        {
+          "answerId": 1,
+          "answer": "Teeth",
+          "correct": true
+        },
+        {
+          "answerId": 2,
+          "answer": "Nose",
+          "correct": false
+        },
+        {
+          "answerId": 3,
+          "answer": "Legs",
+          "correct": false
+        },
+        {
+          "answerId": 4,
+          "answer": "Arms",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionId": 3,
+      "questionText": "What is the fourth sign of the Zodiac?",
+      "questionType": "TEXT",
+      "questionImage": "",
+      "answers": [
+        {
+          "answerId": 1,
+          "answer": "Leo",
+          "correct": false
+        },
+        {
+          "answerId": 2,
+          "answer": "Cancer",
+          "correct": true
+        },
+        {
+          "answerId": 3,
+          "answer": "Gemini",
+          "correct": false
+        },
+        {
+          "answerId": 4,
+          "answer": "Capricorn",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionId": 4,
+      "questionText": "Who is the Greek God of wine?",
+      "questionType": "TEXT",
+      "questionImage": "",
+      "answers": [
+        {
+          "answerId": 1,
+          "answer": "Zeus",
+          "correct": false
+        },
+        {
+          "answerId": 2,
+          "answer": "Dionysus",
+          "correct": true
+        },
+        {
+          "answerId": 3,
+          "answer": "Demeter",
+          "correct": false
+        },
+        {
+          "answerId": 4,
+          "answer": "Hades",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionId": 5,
+      "questionText": "In which year were parking meters introduced in the UK?",
+      "questionType": "TEXT",
+      "questionImage": "",
+      "answers": [
+        {
+          "answerId": 1,
+          "answer": "1964",
+          "correct": false
+        },
+        {
+          "answerId": 2,
+          "answer": "1950",
+          "correct": false
+        },
+        {
+          "answerId": 3,
+          "answer": "1958",
+          "correct": true
+        },
+        {
+          "answerId": 4,
+          "answer": "1948",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionId": 6,
+      "questionText": "During which war was the Battle of Marne?",
+      "questionType": "TEXT",
+      "questionImage": "",
+      "answers": [
+        {
+          "answerId": 1,
+          "answer": "First World War",
+          "correct": true
+        },
+        {
+          "answerId": 2,
+          "answer": "Second World War",
+          "correct": false
+        },
+        {
+          "answerId": 3,
+          "answer": "Third World War",
+          "correct": false
+        },
+        {
+          "answerId": 4,
+          "answer": "Forth World War",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionId": 7,
+      "questionText": "What is the largest country in the world?",
+      "questionType": "TEXT",
+      "questionImage": "",
+      "answers": [
+        {
+          "answerId": 1,
+          "answer": "United States",
+          "correct": false
+        },
+        {
+          "answerId": 2,
+          "answer": "China",
+          "correct": false
+        },
+        {
+          "answerId": 3,
+          "answer": "Canada",
+          "correct": false
+        },
+        {
+          "answerId": 4,
+          "answer": "Russia",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "questionId": 8,
+      "questionText": "An organic compound is considered an alcohol if it has what functional group?",
+      "questionType": "TEXT",
+      "questionImage": "",
+      "answers": [
+        {
+          "answerId": 1,
+          "answer": "Hydroxyl",
+          "correct": true
+        },
+        {
+          "answerId": 2,
+          "answer": "Carbonyl",
+          "correct": false
+        },
+        {
+          "answerId": 3,
+          "answer": "Alkyl",
+          "correct": false
+        },
+        {
+          "answerId": 4,
+          "answer": "Aldehyde",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionId": 9,
+      "questionText": "What is the 100th digit of Pi?",
+      "questionType": "TEXT",
+      "questionImage": "",
+      "answers": [
+        {
+          "answerId": 1,
+          "answer": "4",
+          "correct": false
+        },
+        {
+          "answerId": 2,
+          "answer": "9",
+          "correct": true
+        },
+        {
+          "answerId": 3,
+          "answer": "7",
+          "correct": false
+        },
+        {
+          "answerId": 4,
+          "answer": "2",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionId": 10,
+      "questionText": "A doctor with a PhD is a doctor of what?",
+      "questionType": "TEXT",
+      "questionImage": "",
+      "answers": [
+        {
+          "answerId": 1,
+          "answer": "Phrenology",
+          "correct": false
+        },
+        {
+          "answerId": 2,
+          "answer": "Psychology",
+          "correct": false
+        },
+        {
+          "answerId": 3,
+          "answer": "Philosophy",
+          "correct": true
+        },
+        {
+          "answerId": 4,
+          "answer": "Physical Therapy",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionId": 11,
+      "questionText": "What kind of animal is this?",
+      "questionType": "IMAGE",
+      "questionImage": "cat",
+      "answers": [
+        {
+          "answerId": 1,
+          "answer": "Cat",
+          "correct": true
+        },
+        {
+          "answerId": 2,
+          "answer": "Dog",
+          "correct": false
+        },
+        {
+          "answerId": 3,
+          "answer": "Horse",
+          "correct": false
+        },
+        {
+          "answerId": 4,
+          "answer": "Zebra",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "questionId": 12,
+      "questionText": "Which country is this",
+      "questionType": "IMAGE",
+      "questionImage": "sweden_flag",
+      "answers": [
+        {
+          "answerId": 1,
+          "answer": "Sweden",
+          "correct": true
+        },
+        {
+          "answerId": 2,
+          "answer": "Denmark",
+          "correct": false
+        },
+        {
+          "answerId": 3,
+          "answer": "Finland",
+          "correct": false
+        },
+        {
+          "answerId": 4,
+          "answer": "Norway",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

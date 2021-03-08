@@ -1,0 +1,5 @@
+<resources>
+    <style name="QuizButtonStyle" parent="QuizButton">
+        <item name="android:foreground">?android:attr/selectableItemBackgroundBorderless</item>
+    </style>
+</resources>
